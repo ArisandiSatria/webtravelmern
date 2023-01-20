@@ -62,7 +62,7 @@ export default function Button(props) {
 }
 
 Button.propTypes = {
-  type: propTypes.oneOf(['button', 'link']),
+  type: propTypes.oneOf(["button", "link"]),
   onClick: propTypes.func,
   target: propTypes.string,
   href: propTypes.string,
@@ -73,5 +73,6 @@ Button.propTypes = {
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
   isExternal: propTypes.bool,
+  isPrimary: propTypes.bool,
   hasShadow: propTypes.bool,
-}
+};
