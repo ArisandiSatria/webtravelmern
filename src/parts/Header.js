@@ -1,12 +1,11 @@
-import React from 'react'
-import Button from 'elements/Button'
-import BrandIcon from 'parts/IconText'
+import React from "react";
+import Button from "elements/Button";
+import BrandIcon from "parts/IconText";
 
 export default function Header(props) {
-
-  const getNavLinkClass = path => {
+  const getNavLinkClass = (path) => {
     return props.location.pathname === path ? " active" : "";
-  }
+  };
 
   return (
     <header>
